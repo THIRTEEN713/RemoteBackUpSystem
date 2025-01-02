@@ -11,11 +11,11 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
@@ -29,7 +29,7 @@ public:
     QLabel *WidgetTip;
     QTabWidget *ListTab;
     QHBoxLayout *ToolLayout;
-    QRadioButton *CheckAll;
+    QCheckBox *CheckAll;
     QSpacerItem *ToolSpacer;
     QPushButton *pushButton;
     QPushButton *CleanTask;
@@ -59,7 +59,7 @@ public:
 
         ToolLayout = new QHBoxLayout();
         ToolLayout->setObjectName("ToolLayout");
-        CheckAll = new QRadioButton(TaskList);
+        CheckAll = new QCheckBox(TaskList);
         CheckAll->setObjectName("CheckAll");
         CheckAll->setMinimumSize(QSize(0, 30));
         CheckAll->setMaximumSize(QSize(16777215, 30));

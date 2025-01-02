@@ -19,11 +19,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
-    void on_CheckAll_clicked();
-    void on_Checked(TaskItem*itemWidget,QListWidgetItem*item);
-    void on_UnChecked(TaskItem*itemWidget,QListWidgetItem*item);
-
     void on_CleanTask_clicked();
+    void on_CheckAll_checkStateChanged(const Qt::CheckState &arg1);
 
 private:
     Ui::TaskList *ui;

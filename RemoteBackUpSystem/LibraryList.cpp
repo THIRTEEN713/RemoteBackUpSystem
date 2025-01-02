@@ -64,7 +64,11 @@ void LibraryList::on_ShowTasks_clicked()
 {
     TaskList task;
 
+    setVisible(false);
+
     // 阻塞当前窗口显示子窗口
     task.exec();
+
+    setVisible(true);
 }
 

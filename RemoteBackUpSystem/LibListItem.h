@@ -23,6 +23,11 @@ public:
     QString libName()const;
     QString libAddr()const;
     QString libPort()const;
+private slots:
+    void on_ChangePlane_clicked();
+
+    void on_ShowLibrary_clicked();
+
 private:
     Ui::LibListItem *ui;
 };

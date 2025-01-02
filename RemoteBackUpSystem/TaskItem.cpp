@@ -16,8 +16,8 @@ TaskItem::~TaskItem()
 void TaskItem::setStatus(bool state)
 {
     ui->TaskLibName->setChecked(state);
-    if(state)emit this->checked();
-    else {emit this->unChecked();qDebug() << "被选中";}
+    if(state)emit this->checked(this);
+    else emit this->unChecked(this);
 }
 
 bool TaskItem::status() const
@@ -27,7 +27,7 @@ bool TaskItem::status() const
 
 void TaskItem::on_TaskLibName_clicked(bool checked)
 {
-    if(checked)emit this->checked();
-    else {emit this->unChecked();qDebug() << "被选中";}
+    if(checked)emit this->checked(this);
+    else emit this->unChecked(this);
 }
 

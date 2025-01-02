@@ -28,8 +28,18 @@ void TaskList::on_pushButton_clicked()
     TaskItem *itemWidget = new TaskItem(finished);
 
     // 连接信号
-    connect(itemWidget,&TaskItem::checked,this,[=]{on_Checked(itemWidget,item);});
-    connect(itemWidget,&TaskItem::unChecked,this,[=]{on_UnChecked(itemWidget,item);});
+    connect(itemWidget,&TaskItem::checked,this,[=](TaskItem *itemWidget){
+        items[itemWidget] = item;
+        // 判断itemVector的数量和finished数量是否一致
+        if(items.count() == finished->count())
+            ui->CheckAll->setChecked(true);
+    });
+    connect(itemWidget,&TaskItem::unChecked,this,[=](TaskItem *itemWidget){
+        // 判断itemVector的数量和finished数量是否一致
+        items.remove(itemWidget);
+        if(items.count() != finished->count())
+            ui->CheckAll->setChecked(false);
+    });
 
     item->setSizeHint(itemWidget->sizeHint());
 
@@ -37,51 +47,6 @@ void TaskList::on_pushButton_clicked()
     finished->addItem(item);
     finished->setItemWidget(item,itemWidget);
 }
-
-void TaskList::on_CheckAll_clicked()
-{
-    if(ui->CheckAll->isChecked())
-    {
-        for(int i = 0;i < finished->count();i++)
-        {
-            QListWidgetItem *item = finished->item(i);
-            TaskItem *itemWidget  = static_cast<TaskItem*>(finished->itemWidget(item));
-            itemWidget->setStatus(true);
-        }
-        ui->CheckAll->setText("取消全选");
-    }
-    else
-    {
-        for(int i = 0;i < finished->count();i++)
-        {
-            QListWidgetItem *item = finished->item(i);
-            TaskItem *itemWidget  = static_cast<TaskItem*>(finished->itemWidget(item));
-            itemWidget->setStatus(false);
-        }
-        ui->CheckAll->setText("选择全部");
-    }
-}
-
-void TaskList::on_Checked(TaskItem*itemWidget,QListWidgetItem*item)
-{
-    items[itemWidget] = item;
-    // 判断itemVector的数量和finished数量是否一致
-    if(items.count() == finished->count())
-    {
-        ui->CheckAll->setChecked(true);
-    }
-}
-
-void TaskList::on_UnChecked(TaskItem*itemWidget,QListWidgetItem*item)
-{
-    // 判断itemVector的数量和finished数量是否一致
-    items.remove(itemWidget);
-    if(items.size() != finished->count())
-    {
-        ui->CheckAll->setChecked(false);
-    }
-}
-
 
 void TaskList::on_CleanTask_clicked()
 {
@@ -96,5 +61,32 @@ void TaskList::on_CleanTask_clicked()
     }
     ui->CheckAll->setChecked(false);
     ui->CheckAll->setText("选择全部");
+}
+
+
+void TaskList::on_CheckAll_checkStateChanged(const Qt::CheckState &arg1)
+{
+    if(arg1 == Qt::Checked)
+    {
+        for(int i = 0;i < finished->count();i++)
+        {
+            QListWidgetItem *item = finished->item(i);
+            TaskItem *itemWidget  = static_cast<TaskItem*>(finished->itemWidget(item));
+            items[itemWidget] = item;
+            itemWidget->setStatus(true);
+        }
+        ui->CheckAll->setText("取消全选");
+    }
+    else
+    {
+        for(int i = 0;i < finished->count();i++)
+        {
+            QListWidgetItem *item = finished->item(i);
+            TaskItem *itemWidget  = static_cast<TaskItem*>(finished->itemWidget(item));
+            items.remove(itemWidget);
+            itemWidget->setStatus(false);
+        }
+        ui->CheckAll->setText("选择全部");
+    }
 }
 

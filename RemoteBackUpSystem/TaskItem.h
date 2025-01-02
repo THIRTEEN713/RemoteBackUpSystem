@@ -21,8 +21,8 @@ public:
     bool status()const;
 
 signals:
-    void checked();
-    void unChecked();
+    void checked(TaskItem*);
+    void unChecked(TaskItem*);
 
 private slots:
     void on_TaskLibName_clicked(bool checked);
