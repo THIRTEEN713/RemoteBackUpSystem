@@ -31,8 +31,10 @@ public:
     QHBoxLayout *AddressLayout;
     QLineEdit *NetAddr;
     QLineEdit *NetPort;
+    QLineEdit *userName;
+    QLineEdit *userPasswd;
+    QLabel *checkState;
     QPushButton *NetEnter;
-    QSpacerItem *AddressSpacer;
     QListWidget *List;
     QHBoxLayout *ToolLayout;
     QCheckBox *checkBox;
@@ -64,17 +66,40 @@ public:
         AddressLayout->setObjectName("AddressLayout");
         NetAddr = new QLineEdit(PlaneList);
         NetAddr->setObjectName("NetAddr");
-        NetAddr->setMinimumSize(QSize(160, 23));
-        NetAddr->setMaximumSize(QSize(160, 23));
+        NetAddr->setMinimumSize(QSize(110, 23));
+        NetAddr->setMaximumSize(QSize(110, 23));
 
         AddressLayout->addWidget(NetAddr);
 
         NetPort = new QLineEdit(PlaneList);
         NetPort->setObjectName("NetPort");
-        NetPort->setMinimumSize(QSize(100, 23));
-        NetPort->setMaximumSize(QSize(100, 23));
+        NetPort->setMinimumSize(QSize(60, 23));
+        NetPort->setMaximumSize(QSize(60, 23));
 
         AddressLayout->addWidget(NetPort);
+
+        userName = new QLineEdit(PlaneList);
+        userName->setObjectName("userName");
+        userName->setMinimumSize(QSize(120, 23));
+        userName->setMaximumSize(QSize(120, 23));
+
+        AddressLayout->addWidget(userName);
+
+        userPasswd = new QLineEdit(PlaneList);
+        userPasswd->setObjectName("userPasswd");
+        userPasswd->setMinimumSize(QSize(110, 23));
+        userPasswd->setMaximumSize(QSize(110, 23));
+        userPasswd->setEchoMode(QLineEdit::EchoMode::Password);
+
+        AddressLayout->addWidget(userPasswd);
+
+        checkState = new QLabel(PlaneList);
+        checkState->setObjectName("checkState");
+        checkState->setMinimumSize(QSize(60, 0));
+        checkState->setMaximumSize(QSize(60, 16777215));
+        checkState->setAlignment(Qt::AlignmentFlag::AlignCenter);
+
+        AddressLayout->addWidget(checkState);
 
         NetEnter = new QPushButton(PlaneList);
         NetEnter->setObjectName("NetEnter");
@@ -82,10 +107,6 @@ public:
         NetEnter->setMaximumSize(QSize(16777215, 25));
 
         AddressLayout->addWidget(NetEnter);
-
-        AddressSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        AddressLayout->addItem(AddressSpacer);
 
 
         verticalLayout->addLayout(AddressLayout);
@@ -150,7 +171,10 @@ public:
         PlaneList->setWindowTitle(QCoreApplication::translate("PlaneList", "Dialog", nullptr));
         PlaneTip->setText(QCoreApplication::translate("PlaneList", "\345\244\207\344\273\275\350\256\241\345\210\222\345\210\227\350\241\250", nullptr));
         NetAddr->setPlaceholderText(QCoreApplication::translate("PlaneList", "\345\244\207\344\273\275\345\272\223IP\345\234\260\345\235\200", nullptr));
-        NetPort->setPlaceholderText(QCoreApplication::translate("PlaneList", "\345\244\207\344\273\275\345\272\223\347\253\257\345\217\243\345\217\267", nullptr));
+        NetPort->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\253\257\345\217\243\345\217\267", nullptr));
+        userName->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\224\250\346\210\267\345\220\215", nullptr));
+        userPasswd->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\224\250\346\210\267\345\217\243\344\273\244", nullptr));
+        checkState->setText(QCoreApplication::translate("PlaneList", "\346\234\252\351\252\214\350\257\201", nullptr));
         NetEnter->setText(QCoreApplication::translate("PlaneList", "\347\241\256\345\256\232", nullptr));
         checkBox->setText(QCoreApplication::translate("PlaneList", "\351\200\211\346\213\251\345\205\250\351\203\250", nullptr));
         PlaneStart->setText(QCoreApplication::translate("PlaneList", "\345\274\200\345\220\257\350\256\241\345\210\222", nullptr));
