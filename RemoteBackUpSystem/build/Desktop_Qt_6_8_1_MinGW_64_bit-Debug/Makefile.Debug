@@ -2179,22 +2179,11 @@ debug/FolderItem.o: ../../FolderItem.cpp ../../FolderItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_FolderItem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLineEdit \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlineedit.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
@@ -2394,25 +2383,6 @@ debug/LibListItem.o: ../../LibListItem.cpp ../../LibListItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_LibListItem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLineEdit \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlineedit.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../../PlaneList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
@@ -2611,63 +2581,16 @@ debug/PlaneConfig.o: ../../PlaneConfig.cpp ../../PlaneConfig.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_PlaneConfig.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QCheckBox \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QComboBox \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qcombobox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLineEdit \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlineedit.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QRadioButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qradiobutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QTimeEdit \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdatetimeedit.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QToolButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtoolbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QFileDialog \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qfiledialog.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qdir.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qdirlisting.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\PlaneConfig.o ..\..\PlaneConfig.cpp
 
 debug/PlaneItem.o: ../../PlaneItem.cpp ../../PlaneItem.h \
@@ -2861,26 +2784,6 @@ debug/PlaneItem.o: ../../PlaneItem.cpp ../../PlaneItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_PlaneItem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QRadioButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qradiobutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QToolButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtoolbutton.h \
 		../../PlaneConfig.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
@@ -3089,50 +2992,6 @@ debug/PlaneList.o: ../../PlaneList.cpp ../../FileTransmission.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_PlaneList.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QCheckBox \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLineEdit \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlineedit.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QListWidget \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistwidget.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistview.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
 		../../PlaneItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\PlaneList.o ..\..\PlaneList.cpp
@@ -3328,42 +3187,6 @@ debug/RemoteFolder.o: ../../RemoteFolder.cpp ../../RemoteFolder.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_RemoteFolder.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QListWidget \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistwidget.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistview.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
 		../../FolderItem.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\RemoteFolder.o ..\..\RemoteFolder.cpp
 
@@ -3557,35 +3380,7 @@ debug/TaskItem.o: ../../TaskItem.cpp ../../TaskItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		ui_TaskItem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QProgressBar \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qprogressbar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QRadioButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qradiobutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QTimeEdit \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdatetimeedit.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h
+		ui_TaskItem.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\TaskItem.o ..\..\TaskItem.cpp
 
 debug/TaskList.o: ../../TaskList.cpp ../../TaskList.h \
@@ -3800,27 +3595,7 @@ debug/TaskList.o: ../../TaskList.cpp ../../TaskList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
 		../../TaskItem.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
-		ui_TaskList.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QCheckBox \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QTabWidget \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout
+		ui_TaskList.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\TaskList.o ..\..\TaskList.cpp
 
 debug/main.o: ../../main.cpp ../../LibraryList.h \
@@ -4208,24 +3983,14 @@ debug/LibraryList.o: ../../LibraryList.cpp ../../LibraryList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_LibraryList.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
+		../../LibListItem.h \
+		../../TaskList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QListWidget \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistwidget.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qlistview.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -4239,13 +4004,6 @@ debug/LibraryList.o: ../../LibraryList.cpp ../../LibraryList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
-		../../LibListItem.h \
-		../../TaskList.h \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
 		../../TaskItem.h

@@ -2,11 +2,13 @@
 #include "PlaneList.h"
 #include "ui_PlaneList.h"
 
+#include <LibListItem.h>
 #include <PlaneItem.h>
 
 PlaneList::PlaneList(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::PlaneList)
+    , window(nullptr)
 {
     ui->setupUi(this);
 }
@@ -14,6 +16,11 @@ PlaneList::PlaneList(QWidget *parent)
 PlaneList::~PlaneList()
 {
     delete ui;
+}
+
+void PlaneList::setPrevWindow(QObject *object)
+{
+    this->window = object;
 }
 
 void PlaneList::setAddr(QString str)
@@ -115,6 +122,8 @@ void PlaneList::on_NetEnter_clicked()
         return;
     }
     ui->checkState->setText("验证成功");
-    emit entered();
+
+    // 发送验证完毕的信号
+    emit entered(sockid);
 }
 

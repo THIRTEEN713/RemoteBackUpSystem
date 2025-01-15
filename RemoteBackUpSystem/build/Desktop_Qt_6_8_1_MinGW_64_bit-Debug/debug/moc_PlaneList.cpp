@@ -40,6 +40,7 @@ static constexpr auto qt_meta_stringdata_ZN9PlaneListE = QtMocHelpers::stringDat
     "PlaneList",
     "entered",
     "",
+    "FT_SOCKET",
     "on_PlaneAppend_clicked",
     "on_NetEnter_clicked"
 );
@@ -61,14 +62,14 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9PlaneListE[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   32,    2, 0x06,    1 /* Public */,
+       1,    1,   32,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   33,    2, 0x08,    2 /* Private */,
-       4,    0,   34,    2, 0x08,    3 /* Private */,
+       4,    0,   35,    2, 0x08,    3 /* Private */,
+       5,    0,   36,    2, 0x08,    4 /* Private */,
 
  // signals: parameters
-    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 3,    2,
 
  // slots: parameters
     QMetaType::Void,
@@ -88,6 +89,7 @@ Q_CONSTINIT const QMetaObject PlaneList::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<PlaneList, std::true_type>,
         // method 'entered'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<FT_SOCKET, std::false_type>,
         // method 'on_PlaneAppend_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_NetEnter_clicked'
@@ -101,7 +103,7 @@ void PlaneList::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     auto *_t = static_cast<PlaneList *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->entered(); break;
+        case 0: _t->entered((*reinterpret_cast< std::add_pointer_t<FT_SOCKET>>(_a[1]))); break;
         case 1: _t->on_PlaneAppend_clicked(); break;
         case 2: _t->on_NetEnter_clicked(); break;
         default: ;
@@ -110,7 +112,7 @@ void PlaneList::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (PlaneList::*)();
+            using _q_method_type = void (PlaneList::*)(FT_SOCKET );
             if (_q_method_type _q_method = &PlaneList::entered; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
@@ -151,8 +153,9 @@ int PlaneList::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void PlaneList::entered()
+void PlaneList::entered(FT_SOCKET _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

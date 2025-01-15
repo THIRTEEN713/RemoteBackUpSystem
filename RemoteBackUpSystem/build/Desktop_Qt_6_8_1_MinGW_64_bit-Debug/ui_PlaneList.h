@@ -170,9 +170,13 @@ public:
     {
         PlaneList->setWindowTitle(QCoreApplication::translate("PlaneList", "Dialog", nullptr));
         PlaneTip->setText(QCoreApplication::translate("PlaneList", "\345\244\207\344\273\275\350\256\241\345\210\222\345\210\227\350\241\250", nullptr));
+        NetAddr->setText(QCoreApplication::translate("PlaneList", "192.168.56.133", nullptr));
         NetAddr->setPlaceholderText(QCoreApplication::translate("PlaneList", "\345\244\207\344\273\275\345\272\223IP\345\234\260\345\235\200", nullptr));
+        NetPort->setText(QCoreApplication::translate("PlaneList", "8899", nullptr));
         NetPort->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\253\257\345\217\243\345\217\267", nullptr));
+        userName->setText(QCoreApplication::translate("PlaneList", "test@email.com", nullptr));
         userName->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\224\250\346\210\267\345\220\215", nullptr));
+        userPasswd->setText(QCoreApplication::translate("PlaneList", "123456", nullptr));
         userPasswd->setPlaceholderText(QCoreApplication::translate("PlaneList", "\347\224\250\346\210\267\345\217\243\344\273\244", nullptr));
         checkState->setText(QCoreApplication::translate("PlaneList", "\346\234\252\351\252\214\350\257\201", nullptr));
         NetEnter->setText(QCoreApplication::translate("PlaneList", "\347\241\256\345\256\232", nullptr));

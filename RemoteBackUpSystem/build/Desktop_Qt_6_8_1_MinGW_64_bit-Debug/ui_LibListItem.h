@@ -86,7 +86,9 @@ public:
     void retranslateUi(QWidget *LibListItem)
     {
         LibListItem->setWindowTitle(QCoreApplication::translate("LibListItem", "Form", nullptr));
+        LibraryAddress->setText(QCoreApplication::translate("LibListItem", "192.168.56.133", nullptr));
         LibraryAddress->setPlaceholderText(QCoreApplication::translate("LibListItem", "\345\244\207\344\273\275\345\272\223\345\234\260\345\235\200", nullptr));
+        LibraryPort->setText(QCoreApplication::translate("LibListItem", "8899", nullptr));
         LibraryPort->setPlaceholderText(QCoreApplication::translate("LibListItem", "\345\244\207\344\273\275\345\272\223\347\253\257\345\217\243", nullptr));
         ChangePlane->setText(QCoreApplication::translate("LibListItem", "\346\233\264\346\224\271\350\256\241\345\210\222", nullptr));
         ShowLibrary->setText(QCoreApplication::translate("LibListItem", "\346\237\245\347\234\213\345\272\223", nullptr));

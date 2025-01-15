@@ -21,7 +21,7 @@ SOURCES += \
     TaskItem.cpp \
     TaskList.cpp \
     main.cpp \
-    LibraryList.cpp
+    LibraryList.cpp \
 
 HEADERS += \
     FileTransmission.h \
@@ -33,7 +33,7 @@ HEADERS += \
     PlaneList.h \
     RemoteFolder.h \
     TaskItem.h \
-    TaskList.h
+    TaskList.h \
 
 FORMS += \
     FolderItem.ui \
@@ -45,8 +45,3 @@ FORMS += \
     RemoteFolder.ui \
     TaskItem.ui \
     TaskList.ui
-
-# Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target

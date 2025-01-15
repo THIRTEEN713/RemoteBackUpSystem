@@ -1,6 +1,8 @@
 #ifndef LIBLISTITEM_H
 #define LIBLISTITEM_H
 
+#include "FileTransmission.h"
+
 #include <QWidget>
 
 namespace Ui {
@@ -28,6 +30,8 @@ private slots:
 
     void on_ShowLibrary_clicked();
 
+signals:
+    void update(FT_SOCKET);
 private:
     Ui::LibListItem *ui;
 };

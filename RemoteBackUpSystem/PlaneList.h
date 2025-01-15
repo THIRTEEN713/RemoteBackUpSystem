@@ -1,6 +1,8 @@
 #ifndef PLANELIST_H
 #define PLANELIST_H
 
+#include "FileTransmission.h"
+
 #include <QDialog>
 
 namespace Ui {
@@ -15,6 +17,8 @@ public:
     explicit PlaneList(QWidget *parent = nullptr);
     ~PlaneList();
 
+    void setPrevWindow(QObject *);
+
     void setAddr(QString);
     void setPort(QString);
 
@@ -26,10 +30,11 @@ private slots:
     void on_NetEnter_clicked();
 
 signals:
-    void entered();
+    void entered(FT_SOCKET);
 
 private:
     Ui::PlaneList *ui;
+    QObject *window;
 };
 
 #endif // PLANELIST_H

@@ -55,6 +55,9 @@
          <height>23</height>
         </size>
        </property>
+       <property name="text">
+        <string>192.168.56.133</string>
+       </property>
        <property name="placeholderText">
         <string>备份库IP地址</string>
        </property>
@@ -73,6 +76,9 @@
          <width>60</width>
          <height>23</height>
         </size>
+       </property>
+       <property name="text">
+        <string>8899</string>
        </property>
        <property name="placeholderText">
         <string>端口号</string>
@@ -93,6 +99,9 @@
          <height>23</height>
         </size>
        </property>
+       <property name="text">
+        <string>test@email.com</string>
+       </property>
        <property name="placeholderText">
         <string>用户名</string>
        </property>
@@ -111,6 +120,9 @@
          <width>110</width>
          <height>23</height>
         </size>
+       </property>
+       <property name="text">
+        <string>123456</string>
        </property>
        <property name="echoMode">
         <enum>QLineEdit::EchoMode::Password</enum>

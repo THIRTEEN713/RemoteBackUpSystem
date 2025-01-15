@@ -42,6 +42,9 @@
       <string notr="true">border-radius:14px;
 border:1px solid #c0c0c0;</string>
      </property>
+     <property name="text">
+      <string>192.168.56.133</string>
+     </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignCenter</set>
      </property>
@@ -70,6 +73,9 @@ border:1px solid #c0c0c0;</string>
      <property name="styleSheet">
       <string notr="true">border-radius:14px;
 border:1px solid #c0c0c0;</string>
+     </property>
+     <property name="text">
+      <string>8899</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignCenter</set>
