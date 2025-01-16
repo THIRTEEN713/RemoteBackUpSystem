@@ -38,8 +38,11 @@ struct qt_meta_tag_ZN9PlaneItemE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN9PlaneItemE = QtMocHelpers::stringData(
     "PlaneItem",
-    "on_CheckPath_clicked",
+    "sendData",
     "",
+    "NW_Package",
+    "data",
+    "on_CheckPath_clicked",
     "on_Config_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -52,16 +55,22 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9PlaneItemE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    1,   32,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       5,    0,   35,    2, 0x08,    3 /* Private */,
+       6,    0,   36,    2, 0x08,    4 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3,    4,
 
  // slots: parameters
     QMetaType::Void,
@@ -79,6 +88,9 @@ Q_CONSTINIT const QMetaObject PlaneItem::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN9PlaneItemE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<PlaneItem, std::true_type>,
+        // method 'sendData'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<NW_Package, std::false_type>,
         // method 'on_CheckPath_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_Config_clicked'
@@ -92,12 +104,22 @@ void PlaneItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     auto *_t = static_cast<PlaneItem *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->on_CheckPath_clicked(); break;
-        case 1: _t->on_Config_clicked(); break;
+        case 0: _t->sendData((*reinterpret_cast< std::add_pointer_t<NW_Package>>(_a[1]))); break;
+        case 1: _t->on_CheckPath_clicked(); break;
+        case 2: _t->on_Config_clicked(); break;
         default: ;
         }
     }
-    (void)_a;
+    if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _q_method_type = void (PlaneItem::*)(NW_Package );
+            if (_q_method_type _q_method = &PlaneItem::sendData; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+    }
 }
 
 const QMetaObject *PlaneItem::metaObject() const
@@ -119,15 +141,22 @@ int PlaneItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
+}
+
+// SIGNAL 0
+void PlaneItem::sendData(NW_Package _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

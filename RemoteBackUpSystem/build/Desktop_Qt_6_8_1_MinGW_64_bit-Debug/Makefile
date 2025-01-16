@@ -423,7 +423,8 @@ Makefile: ../../RemoteBackUpSystem.pro D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/m
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6Gui.prl \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6Core.prl \
 		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6EntryPoint.prl \
-		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/mkspecs/features/build_pass.prf
+		D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/mkspecs/features/build_pass.prf \
+		../../.qrc
 	$(QMAKE) -o Makefile ..\..\RemoteBackUpSystem.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/mkspecs/features/spec_pre.prf:
 D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/mkspecs/features/device_config.prf:
@@ -779,6 +780,7 @@ D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6Gui.prl:
 D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6Core.prl:
 D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/lib/Qt6EntryPoint.prl:
 D:/0.IDE_EDITOR/0.IDE/Qt/6.8.1/mingw_64/mkspecs/features/build_pass.prf:
+../../.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\RemoteBackUpSystem.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

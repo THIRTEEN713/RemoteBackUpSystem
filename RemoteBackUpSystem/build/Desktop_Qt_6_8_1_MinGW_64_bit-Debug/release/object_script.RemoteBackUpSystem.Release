@@ -1,6 +1,7 @@
-release/FileTransmission.o
+release/DataProcess.o
 release/FolderItem.o
 release/LibListItem.o
+release/Network.o
 release/PlaneConfig.o
 release/PlaneItem.o
 release/PlaneList.o
@@ -9,6 +10,8 @@ release/TaskItem.o
 release/TaskList.o
 release/main.o
 release/LibraryList.o
+release/qrc_.o
+release/moc_DataProcess.o
 release/moc_FolderItem.o
 release/moc_LibListItem.o
 release/moc_LibraryList.o

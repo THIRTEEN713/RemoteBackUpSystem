@@ -1,6 +1,7 @@
-debug/FileTransmission.o
+debug/DataProcess.o
 debug/FolderItem.o
 debug/LibListItem.o
+debug/Network.o
 debug/PlaneConfig.o
 debug/PlaneItem.o
 debug/PlaneList.o
@@ -9,6 +10,8 @@ debug/TaskItem.o
 debug/TaskList.o
 debug/main.o
 debug/LibraryList.o
+debug/qrc_.o
+debug/moc_DataProcess.o
 debug/moc_FolderItem.o
 debug/moc_LibListItem.o
 debug/moc_LibraryList.o

@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
@@ -23,8 +24,7 @@ class Ui_LibListItem
 public:
     QHBoxLayout *horizontalLayout;
     QLineEdit *LibraryName;
-    QLineEdit *LibraryAddress;
-    QLineEdit *LibraryPort;
+    QLabel *LibraryTime;
     QPushButton *ChangePlane;
     QPushButton *ShowLibrary;
 
@@ -32,36 +32,26 @@ public:
     {
         if (LibListItem->objectName().isEmpty())
             LibListItem->setObjectName("LibListItem");
-        LibListItem->resize(517, 52);
+        LibListItem->resize(601, 52);
         horizontalLayout = new QHBoxLayout(LibListItem);
         horizontalLayout->setObjectName("horizontalLayout");
         LibraryName = new QLineEdit(LibListItem);
         LibraryName->setObjectName("LibraryName");
         LibraryName->setMinimumSize(QSize(0, 28));
+        LibraryName->setMaximumSize(QSize(16777215, 16777215));
 
         horizontalLayout->addWidget(LibraryName);
 
-        LibraryAddress = new QLineEdit(LibListItem);
-        LibraryAddress->setObjectName("LibraryAddress");
-        LibraryAddress->setMinimumSize(QSize(100, 28));
-        LibraryAddress->setMaximumSize(QSize(100, 16777215));
-        LibraryAddress->setStyleSheet(QString::fromUtf8("border-radius:14px;\n"
-"border:1px solid #c0c0c0;"));
-        LibraryAddress->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        LibraryAddress->setReadOnly(true);
+        LibraryTime = new QLabel(LibListItem);
+        LibraryTime->setObjectName("LibraryTime");
+        LibraryTime->setMinimumSize(QSize(150, 0));
+        LibraryTime->setMaximumSize(QSize(150, 16777215));
+        QFont font;
+        font.setBold(true);
+        LibraryTime->setFont(font);
+        LibraryTime->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        horizontalLayout->addWidget(LibraryAddress);
-
-        LibraryPort = new QLineEdit(LibListItem);
-        LibraryPort->setObjectName("LibraryPort");
-        LibraryPort->setMinimumSize(QSize(80, 28));
-        LibraryPort->setMaximumSize(QSize(80, 16777215));
-        LibraryPort->setStyleSheet(QString::fromUtf8("border-radius:14px;\n"
-"border:1px solid #c0c0c0;"));
-        LibraryPort->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        LibraryPort->setReadOnly(true);
-
-        horizontalLayout->addWidget(LibraryPort);
+        horizontalLayout->addWidget(LibraryTime);
 
         ChangePlane = new QPushButton(LibListItem);
         ChangePlane->setObjectName("ChangePlane");
@@ -86,10 +76,7 @@ public:
     void retranslateUi(QWidget *LibListItem)
     {
         LibListItem->setWindowTitle(QCoreApplication::translate("LibListItem", "Form", nullptr));
-        LibraryAddress->setText(QCoreApplication::translate("LibListItem", "192.168.56.133", nullptr));
-        LibraryAddress->setPlaceholderText(QCoreApplication::translate("LibListItem", "\345\244\207\344\273\275\345\272\223\345\234\260\345\235\200", nullptr));
-        LibraryPort->setText(QCoreApplication::translate("LibListItem", "8899", nullptr));
-        LibraryPort->setPlaceholderText(QCoreApplication::translate("LibListItem", "\345\244\207\344\273\275\345\272\223\347\253\257\345\217\243", nullptr));
+        LibraryTime->setText(QCoreApplication::translate("LibListItem", "TextLabel", nullptr));
         ChangePlane->setText(QCoreApplication::translate("LibListItem", "\346\233\264\346\224\271\350\256\241\345\210\222", nullptr));
         ShowLibrary->setText(QCoreApplication::translate("LibListItem", "\346\237\245\347\234\213\345\272\223", nullptr));
     } // retranslateUi

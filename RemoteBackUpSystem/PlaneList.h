@@ -1,10 +1,8 @@
 #ifndef PLANELIST_H
 #define PLANELIST_H
 
-#include "FileTransmission.h"
-
 #include <QDialog>
-
+#include "Network.h"
 namespace Ui {
 class PlaneList;
 }
@@ -19,18 +17,12 @@ public:
 
     void setPrevWindow(QObject *);
 
-    void setAddr(QString);
-    void setPort(QString);
-
-    QString addr();
-    QString port();
-
 private slots:
     void on_PlaneAppend_clicked();
     void on_NetEnter_clicked();
 
 signals:
-    void entered(FT_SOCKET);
+    void sendData(NW_Package data);
 
 private:
     Ui::PlaneList *ui;

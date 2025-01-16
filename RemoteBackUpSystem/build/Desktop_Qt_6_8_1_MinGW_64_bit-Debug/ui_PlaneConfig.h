@@ -49,7 +49,7 @@ public:
     QComboBox *InteralTime;
     QSpacerItem *InteralSpacer;
     QGridLayout *ClockLayout;
-    QCheckBox *checkBox_4;
+    QCheckBox *Thu;
     QCheckBox *Mon;
     QLabel *ClockDate;
     QCheckBox *Tue;
@@ -59,12 +59,12 @@ public:
     QRadioButton *EveryDay;
     QRadioButton *SingleDay;
     QRadioButton *UserDefine;
-    QCheckBox *Thi;
-    QCheckBox *checkBox_7;
-    QCheckBox *checkBox_6;
+    QCheckBox *Wed;
+    QCheckBox *Sun;
+    QCheckBox *Sat;
     QRadioButton *Holiday;
     QLabel *ClockTip;
-    QTimeEdit *timeEdit;
+    QTimeEdit *ClockTime;
     QHBoxLayout *ToolLayout;
     QSpacerItem *ToolSpacer;
     QPushButton *Cancel;
@@ -185,10 +185,10 @@ public:
         ClockLayout->setHorizontalSpacing(5);
         ClockLayout->setVerticalSpacing(15);
         ClockLayout->setContentsMargins(-1, 15, -1, -1);
-        checkBox_4 = new QCheckBox(PlaneConfig);
-        checkBox_4->setObjectName("checkBox_4");
+        Thu = new QCheckBox(PlaneConfig);
+        Thu->setObjectName("Thu");
 
-        ClockLayout->addWidget(checkBox_4, 2, 3, 1, 1);
+        ClockLayout->addWidget(Thu, 2, 3, 1, 1);
 
         Mon = new QCheckBox(PlaneConfig);
         Mon->setObjectName("Mon");
@@ -236,20 +236,20 @@ public:
 
         ClockLayout->addWidget(UserDefine, 1, 6, 1, 1);
 
-        Thi = new QCheckBox(PlaneConfig);
-        Thi->setObjectName("Thi");
+        Wed = new QCheckBox(PlaneConfig);
+        Wed->setObjectName("Wed");
 
-        ClockLayout->addWidget(Thi, 2, 2, 1, 1);
+        ClockLayout->addWidget(Wed, 2, 2, 1, 1);
 
-        checkBox_7 = new QCheckBox(PlaneConfig);
-        checkBox_7->setObjectName("checkBox_7");
+        Sun = new QCheckBox(PlaneConfig);
+        Sun->setObjectName("Sun");
 
-        ClockLayout->addWidget(checkBox_7, 2, 6, 1, 1);
+        ClockLayout->addWidget(Sun, 2, 6, 1, 1);
 
-        checkBox_6 = new QCheckBox(PlaneConfig);
-        checkBox_6->setObjectName("checkBox_6");
+        Sat = new QCheckBox(PlaneConfig);
+        Sat->setObjectName("Sat");
 
-        ClockLayout->addWidget(checkBox_6, 2, 5, 1, 1);
+        ClockLayout->addWidget(Sat, 2, 5, 1, 1);
 
         Holiday = new QRadioButton(PlaneConfig);
         Holiday->setObjectName("Holiday");
@@ -262,10 +262,10 @@ public:
 
         ClockLayout->addWidget(ClockTip, 0, 0, 1, 1);
 
-        timeEdit = new QTimeEdit(PlaneConfig);
-        timeEdit->setObjectName("timeEdit");
+        ClockTime = new QTimeEdit(PlaneConfig);
+        ClockTime->setObjectName("ClockTime");
 
-        ClockLayout->addWidget(timeEdit, 0, 1, 1, 1);
+        ClockLayout->addWidget(ClockTime, 0, 1, 1, 1);
 
 
         verticalLayout_2->addLayout(ClockLayout);
@@ -312,7 +312,7 @@ public:
         InteralTime->setItemText(3, QCoreApplication::translate("PlaneConfig", "\345\215\212\345\260\217\346\227\266", nullptr));
         InteralTime->setItemText(4, QCoreApplication::translate("PlaneConfig", "\344\270\200\345\260\217\346\227\266", nullptr));
 
-        checkBox_4->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\345\233\233", nullptr));
+        Thu->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\345\233\233", nullptr));
         Mon->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\344\270\200", nullptr));
         ClockDate->setText(QCoreApplication::translate("PlaneConfig", "\345\244\207\344\273\275\346\227\245\346\234\237", nullptr));
         Tue->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\344\272\214", nullptr));
@@ -322,9 +322,9 @@ public:
         EveryDay->setText(QCoreApplication::translate("PlaneConfig", "\346\257\217\345\244\251", nullptr));
         SingleDay->setText(QCoreApplication::translate("PlaneConfig", "\345\215\225\346\225\260\345\244\251", nullptr));
         UserDefine->setText(QCoreApplication::translate("PlaneConfig", "\350\207\252\345\256\232\344\271\211", nullptr));
-        Thi->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\344\270\211", nullptr));
-        checkBox_7->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\346\227\245", nullptr));
-        checkBox_6->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\345\205\255", nullptr));
+        Wed->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\344\270\211", nullptr));
+        Sun->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\346\227\245", nullptr));
+        Sat->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\345\205\255", nullptr));
         Holiday->setText(QCoreApplication::translate("PlaneConfig", "\345\221\250\346\234\253", nullptr));
         ClockTip->setText(QCoreApplication::translate("PlaneConfig", "\345\244\207\344\273\275\346\227\266\351\227\264", nullptr));
         Cancel->setText(QCoreApplication::translate("PlaneConfig", "\345\217\226\346\266\210", nullptr));

@@ -35,9 +35,105 @@
       </font>
      </property>
      <property name="text">
-      <string>备份库列表</string>
+      <string>备份组列表</string>
      </property>
     </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="InforLayout">
+     <item>
+      <widget class="QLineEdit" name="Address">
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>192.168.56.133</string>
+       </property>
+       <property name="placeholderText">
+        <string>服务器IP地址</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Port">
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>8899</string>
+       </property>
+       <property name="placeholderText">
+        <string>端口号</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Name">
+       <property name="text">
+        <string>test@email.com</string>
+       </property>
+       <property name="placeholderText">
+        <string>用户名</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Password">
+       <property name="text">
+        <string>123456</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::EchoMode::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>口令</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="Status">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(8, 111, 208);</string>
+       </property>
+       <property name="text">
+        <string>未验证</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Check">
+       <property name="text">
+        <string>验证</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
    <item>
     <widget class="QListWidget" name="List"/>
@@ -59,6 +155,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="ShowTasks">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="minimumSize">
         <size>
          <width>0</width>
@@ -78,6 +177,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="DeleteLib">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="minimumSize">
         <size>
          <width>0</width>
@@ -97,6 +199,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="AppedLib">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="minimumSize">
         <size>
          <width>0</width>

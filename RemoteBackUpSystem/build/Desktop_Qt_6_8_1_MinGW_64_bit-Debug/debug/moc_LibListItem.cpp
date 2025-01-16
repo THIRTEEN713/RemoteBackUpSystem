@@ -38,9 +38,10 @@ struct qt_meta_tag_ZN11LibListItemE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN11LibListItemE = QtMocHelpers::stringData(
     "LibListItem",
-    "update",
+    "sendData",
     "",
-    "FT_SOCKET",
+    "NW_Package",
+    "data",
     "on_ChangePlane_clicked",
     "on_ShowLibrary_clicked"
 );
@@ -65,11 +66,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN11LibListItemE[] = {
        1,    1,   32,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       4,    0,   35,    2, 0x08,    3 /* Private */,
-       5,    0,   36,    2, 0x08,    4 /* Private */,
+       5,    0,   35,    2, 0x08,    3 /* Private */,
+       6,    0,   36,    2, 0x08,    4 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, 0x80000000 | 3,    2,
+    QMetaType::Void, 0x80000000 | 3,    4,
 
  // slots: parameters
     QMetaType::Void,
@@ -87,9 +88,9 @@ Q_CONSTINIT const QMetaObject LibListItem::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN11LibListItemE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<LibListItem, std::true_type>,
-        // method 'update'
+        // method 'sendData'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<FT_SOCKET, std::false_type>,
+        QtPrivate::TypeAndForceComplete<NW_Package, std::false_type>,
         // method 'on_ChangePlane_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_ShowLibrary_clicked'
@@ -103,7 +104,7 @@ void LibListItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     auto *_t = static_cast<LibListItem *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->update((*reinterpret_cast< std::add_pointer_t<FT_SOCKET>>(_a[1]))); break;
+        case 0: _t->sendData((*reinterpret_cast< std::add_pointer_t<NW_Package>>(_a[1]))); break;
         case 1: _t->on_ChangePlane_clicked(); break;
         case 2: _t->on_ShowLibrary_clicked(); break;
         default: ;
@@ -112,8 +113,8 @@ void LibListItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (LibListItem::*)(FT_SOCKET );
-            if (_q_method_type _q_method = &LibListItem::update; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _q_method_type = void (LibListItem::*)(NW_Package );
+            if (_q_method_type _q_method = &LibListItem::sendData; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -153,7 +154,7 @@ int LibListItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void LibListItem::update(FT_SOCKET _t1)
+void LibListItem::sendData(NW_Package _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

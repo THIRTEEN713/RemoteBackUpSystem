@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 15.0.0, 2025-01-15T05:32:20. -->
+<!-- Written by QtCreator 15.0.0, 2025-01-16T22:30:36. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -419,7 +419,6 @@
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/2.classwords/0.VIP课程/VIP-2532/2.研修课程/4.项目实战/0.远端备份项目/RemoteBackUpSystem/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

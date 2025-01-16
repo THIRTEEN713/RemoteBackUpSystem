@@ -1,7 +1,7 @@
 #ifndef LIBLISTITEM_H
 #define LIBLISTITEM_H
 
-#include "FileTransmission.h"
+#include "NetWork.h"
 
 #include <QWidget>
 
@@ -19,19 +19,18 @@ public:
 
     // 公开API
     void setLibName(QString);
-    void setLibAddr(QString);
-    void setLibPort(QString);
+    void setLibTime(QString);
 
     QString libName()const;
-    QString libAddr()const;
-    QString libPort()const;
+    QString libTime()const;
 private slots:
     void on_ChangePlane_clicked();
 
     void on_ShowLibrary_clicked();
 
 signals:
-    void update(FT_SOCKET);
+    void sendData(NW_Package data);
+
 private:
     Ui::LibListItem *ui;
 };

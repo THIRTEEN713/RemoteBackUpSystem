@@ -11,9 +11,10 @@ LIBS += -lws2_32
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    FileTransmission.cpp \
+    DataProcess.cpp \
     FolderItem.cpp \
     LibListItem.cpp \
+    Network.cpp \
     PlaneConfig.cpp \
     PlaneItem.cpp \
     PlaneList.cpp \
@@ -24,10 +25,11 @@ SOURCES += \
     LibraryList.cpp \
 
 HEADERS += \
-    FileTransmission.h \
+    DataProcess.h \
     FolderItem.h \
     LibListItem.h \
     LibraryList.h \
+    Network.h \
     PlaneConfig.h \
     PlaneItem.h \
     PlaneList.h \
@@ -45,3 +47,6 @@ FORMS += \
     RemoteFolder.ui \
     TaskItem.ui \
     TaskList.ui
+
+RESOURCES += \
+    .qrc

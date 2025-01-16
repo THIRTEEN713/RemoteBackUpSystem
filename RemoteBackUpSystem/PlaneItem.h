@@ -2,7 +2,7 @@
 #define PLANEITEM_H
 
 #include <QWidget>
-
+#include "Network.h"
 namespace Ui {
 class PlaneItem;
 }
@@ -29,6 +29,9 @@ private slots:
     void on_CheckPath_clicked();
 
     void on_Config_clicked();
+
+signals:
+    void sendData(NW_Package data);
 
 private:
     Ui::PlaneItem *ui;

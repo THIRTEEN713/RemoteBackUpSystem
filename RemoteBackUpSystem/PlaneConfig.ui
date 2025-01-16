@@ -209,7 +209,7 @@
       <number>15</number>
      </property>
      <item row="2" column="3">
-      <widget class="QCheckBox" name="checkBox_4">
+      <widget class="QCheckBox" name="Thu">
        <property name="text">
         <string>周四</string>
        </property>
@@ -284,21 +284,21 @@
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QCheckBox" name="Thi">
+      <widget class="QCheckBox" name="Wed">
        <property name="text">
         <string>周三</string>
        </property>
       </widget>
      </item>
      <item row="2" column="6">
-      <widget class="QCheckBox" name="checkBox_7">
+      <widget class="QCheckBox" name="Sun">
        <property name="text">
         <string>周日</string>
        </property>
       </widget>
      </item>
      <item row="2" column="5">
-      <widget class="QCheckBox" name="checkBox_6">
+      <widget class="QCheckBox" name="Sat">
        <property name="text">
         <string>周六</string>
        </property>
@@ -324,7 +324,7 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QTimeEdit" name="timeEdit"/>
+      <widget class="QTimeEdit" name="ClockTime"/>
      </item>
     </layout>
    </item>

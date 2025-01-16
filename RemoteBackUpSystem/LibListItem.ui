@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>517</width>
+    <width>601</width>
     <height>52</height>
    </rect>
   </property>
@@ -22,69 +22,38 @@
        <height>28</height>
       </size>
      </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="LibraryAddress">
-     <property name="minimumSize">
-      <size>
-       <width>100</width>
-       <height>28</height>
-      </size>
-     </property>
      <property name="maximumSize">
       <size>
-       <width>100</width>
+       <width>16777215</width>
        <height>16777215</height>
       </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border-radius:14px;
-border:1px solid #c0c0c0;</string>
-     </property>
-     <property name="text">
-      <string>192.168.56.133</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignmentFlag::AlignCenter</set>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-     <property name="placeholderText">
-      <string>备份库地址</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLineEdit" name="LibraryPort">
+    <widget class="QLabel" name="LibraryTime">
      <property name="minimumSize">
       <size>
-       <width>80</width>
-       <height>28</height>
+       <width>150</width>
+       <height>0</height>
       </size>
      </property>
      <property name="maximumSize">
       <size>
-       <width>80</width>
+       <width>150</width>
        <height>16777215</height>
       </size>
      </property>
-     <property name="styleSheet">
-      <string notr="true">border-radius:14px;
-border:1px solid #c0c0c0;</string>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="text">
-      <string>8899</string>
+      <string>TextLabel</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignCenter</set>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-     <property name="placeholderText">
-      <string>备份库端口</string>
      </property>
     </widget>
    </item>

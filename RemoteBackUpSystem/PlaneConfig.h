@@ -2,7 +2,7 @@
 #define PLANECONFIG_H
 
 #include <QDialog>
-
+#include "Network.h"
 namespace Ui {
 class PlaneConfig;
 }
@@ -18,6 +18,11 @@ public:
 private slots:
     void on_ChangePath_clicked();
 
+    void on_Ok_clicked();
+
+signals:
+    void sendData(NW_Package data);
+    
 private:
     Ui::PlaneConfig *ui;
 };
